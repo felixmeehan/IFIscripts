@@ -76,7 +76,7 @@ def main():
         manifest = "%s/%s" % (desktop_manifest_dir, manifest_)
         desktop_logs_dir = make_desktop_logs_dir()
         log_name_source = "%s/%s.log" % (desktop_logs_dir, log_name_source_)
-    generate_log(log_name_source, 'move.py started.')
+    generate_log(log_name_source, 'manifest.py started.')
     generate_log(log_name_source, 'Source: %s' % source)
     if os.path.isfile(source):
         print '\nFile checksum is not currently supported, only directories.\n'
